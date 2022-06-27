@@ -1,0 +1,22 @@
+.reviewPage {
+    position: relative;
+    text-align: center;
+}
+
+/*search input*/
+.header {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*review list*/
+.list {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+

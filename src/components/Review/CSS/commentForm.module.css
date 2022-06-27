@@ -1,0 +1,44 @@
+@value makerWhite,makerGrey,makerPink,makerLightGrey, makerMidGrey, makerDarkGreen, makerGreen from '../../Review/common/color.css';
+@value fontEn from '../../Review/common/font.css';
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.container {
+    border: 2px solid makerLightGrey;
+    border-radius: 10px;
+    width: 100%;
+    height: 12rem;
+}
+
+.user {
+    margin-left: 1.1rem;
+}
+
+.user > span {
+    font-size: 0.9rem;
+    color: makerGrey;
+}
+
+.comment_form {
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+}
+.textarea {
+    width: 90%;
+    height: 110px;
+    border: none;
+    resize: none;
+}
+
+.button {
+    border: none;
+    color: makerGrey;
+    background-color: transparent;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+}

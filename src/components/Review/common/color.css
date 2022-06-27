@@ -1,0 +1,18 @@
+@value makerBlack: black;
+@value makerWhite: white;
+@value makerLightGrey: #EEEDED;
+@value makerLightPink: #ffeae8;
+@value makerMidGrey: ##E5E5E5;
+@value makerGrey: #999999;
+@value makerPink: pink;
+@value makerShadow: rgba(217, 217, 217, 1);
+@value makerDarkGreen: #5F7161;
+@value makerGreen: #6D8B74;
+
+@value makerBeige: #EFEAD8;
+@value makerDarkBeige: #D0C9C0;
+
+/*컴포넌트에서 사용할때 
+
+@value makerGrey,makerLightGrey from '../Review/common/color.css';
+*/

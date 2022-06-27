@@ -1,0 +1,18 @@
+@value makerWhite,makerGrey,makerPink,makerLightGrey, makerDarkGreen, makerGreen from '../../Review/common/color.css';
+@value fontEn from '../../Review/common/font.css';
+
+.button_write {
+    margin-left: 3rem;
+    cursor: pointer;
+    border: makerGrey 1px solid;
+    background-color: makerWhite;
+    border-radius: 10px;
+    height: 3rem;
+    width: 6rem;
+
+    font-weight: bold;
+}
+
+.button_write:hover {
+    opacity: 0.8;
+}
